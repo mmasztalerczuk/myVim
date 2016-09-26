@@ -7,6 +7,7 @@ Just run the following commands via terminal::
 ```console
 $ cd ~/
 $ git clone https://github.com/mmasztalerczuk/myVim.git .vim
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ ln -s ~/.vim/vimrc ~/.vimrc
 $ cd ~/.vim
 ```
