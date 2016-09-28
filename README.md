@@ -21,5 +21,6 @@ My vim dot files is using of [Vundle](https://github.com/VundleVim/Vundle.vim)
 Plugins Used:
 
 1. [nerdtree](https://github.com/scrooloose/nerdtree) 
+2. [flake8](https://github.com/nvie/vim-flake8) 
 
 
