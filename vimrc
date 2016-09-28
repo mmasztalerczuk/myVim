@@ -3,6 +3,8 @@ filetype off                  " required
 
 set enc=utf-8
 set number
+
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -18,6 +20,10 @@ Plugin 'scrooloose/nerdtree'
 
 " Adding vim-flake8
 Plugin 'nvie/vim-flake8'
+
+" Adding SimplyFold
+Plugin 'tmhedberg/SimpylFold'
+
 
 "================= NERDtree configuration ==================
 

@@ -22,5 +22,6 @@ Plugins Used:
 
 1. [nerdtree](https://github.com/scrooloose/nerdtree) 
 2. [flake8](https://github.com/nvie/vim-flake8) 
+3. [SimplylFold](https://github.com/tmhedberg/SimplylFold) 
 
 
