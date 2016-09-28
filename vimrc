@@ -8,6 +8,8 @@ highlight BadWhitespace ctermbg=red guibg=darkred
 
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
+let mapleader = "\<Space>"
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -27,6 +29,8 @@ Plugin 'nvie/vim-flake8'
 " Adding SimplyFold
 Plugin 'tmhedberg/SimpylFold'
 
+" Adding YouCompleteMe
+Plugin 'Valloric/YouCompleteMe'
 
 "================= NERDtree configuration ==================
 
@@ -36,6 +40,12 @@ let g:NERDTreeDirArrowExpandable = '➜'
 "================= vim-flake8 configuration ===============
 
 let g:flake8_show_in_file=1  " show
+
+"================ YouCompleteMe ==========================
+
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
