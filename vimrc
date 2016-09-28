@@ -4,6 +4,9 @@ filetype off                  " required
 set enc=utf-8
 set number
 
+highlight BadWhitespace ctermbg=red guibg=darkred
+
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
