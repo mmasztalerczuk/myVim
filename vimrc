@@ -23,27 +23,22 @@ Plugin 'VundleVim/Vundle.vim'
 " Adding NERDtree
 Plugin 'scrooloose/nerdtree'
 
-" Adding vim-flake8
-Plugin 'nvie/vim-flake8'
-
-" Adding SimplyFold
-Plugin 'tmhedberg/SimpylFold'
-
 " Adding YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
+
+" Adding python-mode
+Plugin 'klen/python-mode'
 
 "================= NERDtree configuration ==================
 
 map <C-n> :NERDTreeToggle<CR> " open window ctrl+n
 let g:NERDTreeDirArrowExpandable = '➜'
 
-"================= vim-flake8 configuration ===============
-
-let g:flake8_show_in_file=1  " show
-
 "================ YouCompleteMe ==========================
 
 let g:ycm_autoclose_preview_window_after_completion=1
+
+
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 

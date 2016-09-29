@@ -21,7 +21,7 @@ My vim dot files is using of [Vundle](https://github.com/VundleVim/Vundle.vim)
 Plugins Used:
 
 1. [nerdtree](https://github.com/scrooloose/nerdtree) 
-2. [flake8](https://github.com/nvie/vim-flake8) 
-3. [SimplylFold](https://github.com/tmhedberg/SimplylFold) 
+2. [youCompleteMe](https://github.com/Valloric/YouCompleteMe) 
+3. [python-mode](https://github.com/klen/python-mode) 
 
 
