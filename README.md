@@ -23,5 +23,6 @@ Plugins Used:
 1. [nerdtree](https://github.com/scrooloose/nerdtree) 
 2. [youCompleteMe](https://github.com/Valloric/YouCompleteMe) 
 3. [python-mode](https://github.com/klen/python-mode) 
+4. [powerline](https://github.com/powerline/powerline) 
 
 

@@ -4,6 +4,8 @@ filetype off                  " required
 set enc=utf-8
 set number
 
+set laststatus=2
+
 highlight BadWhitespace ctermbg=red guibg=darkred
 
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
@@ -12,6 +14,7 @@ let mapleader = "\<Space>"
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+
 call vundle#begin()
 
 " alternatively, pass a path where Vundle should install plugins
@@ -28,6 +31,9 @@ Plugin 'Valloric/YouCompleteMe'
 
 " Adding python-mode
 Plugin 'klen/python-mode'
+
+" Adding powerline/powerline
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 "================= NERDtree configuration ==================
 
