@@ -35,6 +35,9 @@ Plugin 'klen/python-mode'
 " Adding powerline/powerline
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
+" Adding nerdcommenter
+Plugin 'scrooloose/nerdcommenter'
+
 "================= NERDtree configuration ==================
 
 map <C-n> :NERDTreeToggle<CR> " open window ctrl+n
