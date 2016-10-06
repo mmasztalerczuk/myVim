@@ -13,6 +13,14 @@ $ cd ~/.vim
 ```
 Launch `vim` and run `:PluginInstall`
 
+Now, you should also:
+
+1. Compiling YCM ([more info](https://github.com/Valloric/YouCompleteMe))
+
+```console    
+  $ cd ~/.vim/bundle/YouCompleteMe
+  $ ./install --clang-completer
+```
 ## Vundle
 
 My vim dot files is using of [Vundle](https://github.com/VundleVim/Vundle.vim) 
@@ -25,5 +33,4 @@ Plugins Used:
 3. [python-mode](https://github.com/klen/python-mode) 
 4. [powerline](https://github.com/powerline/powerline) 
 5. [nerdcommenter](https://github.com/scrooloose/nerdcommenter) 
-
 
