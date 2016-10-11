@@ -3,6 +3,13 @@ filetype off                  " required
 
 set enc=utf-8
 set number
+set textwidth=79   " lines longer than 79 columns will be broken
+set shiftwidth=4   " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4      " a hard TAB displays as 4 columns
+set expandtab      " insert spaces when hiting TABs
+set softtabstop=4  " insert/dete 4 spaces when hittinh a TAB/BACKSPACE
+set shiftround     " round indent to multiple of 'shiftwidth'
+set autoindent     " aligin the new line indent with previous line
 
 set laststatus=2
 
